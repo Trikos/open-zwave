@@ -1466,7 +1466,7 @@ bool Driver::MoveMessagesToWakeUpQueue(uint8 const _targetNodeId, bool const _mo
 //-----------------------------------------------------------------------------
 // <Driver::HandleErrorResponse>
 // For messages that return a ZW_SEND_DATA response, process the results here
-// If it is a non-listeing (sleeping) node return true.
+// If it is a non-listening (sleeping) node return true.
 //-----------------------------------------------------------------------------
 bool Driver::HandleErrorResponse(uint8 const _error, uint8 const _nodeId, char const* _funcStr, bool _sleepCheck	// = 0
 		)
